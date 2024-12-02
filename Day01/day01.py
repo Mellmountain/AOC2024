@@ -19,7 +19,7 @@ part1 = 0
 part2 = 0
 
 for i, loc in enumerate(left):
-    part1 +=  abs(loc - right[i])
+    part1 += abs(loc - right[i])
     if str(loc) in count:
         part2 += loc * count[str(loc)]
 
